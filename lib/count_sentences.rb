@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    puts self.split(/\.|\!|\?/).delete_if {|value| value <1}
+    puts self.split(/\.|\!|\?/).delete_if {|value| value <2}
 
   end
 end
